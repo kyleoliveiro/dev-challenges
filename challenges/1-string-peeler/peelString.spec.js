@@ -5,7 +5,7 @@ describe('peelString', () => {
     expect(peelString('hello world')).toBe('ello worl');
   });
 
-  it('returns null if string is less than 2 characters', () => {
+  it('returns null if string contains 2 or less characters', () => {
     expect(peelString('hi')).toBeNull();
   });
 });
